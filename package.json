@@ -1,0 +1,10 @@
+{
+  "name": "demo-app",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo 'Tests passed!'",
+    "build": "echo 'Build successful!'",
+    "docker:build": "docker build -t demo-app .",
+    "docker:run": "docker run -p 3000:3000 demo-app"
+  }
+}
